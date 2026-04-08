@@ -1,0 +1,115 @@
+Selector {
+    Property: value;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(245, 247, 250);
+    display: flex;
+    flex-direction: column;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+header {
+    overflow: auto;
+    margin: 0px;
+    border: 0px;
+    padding: 14px 28px;
+    background-color: rgb(30, 30, 60);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin: 10px;
+    float: left;
+    letter-spacing: 1px;
+}
+
+nav {
+    border: 50px;
+    margin: 10px;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(99, 84, 196);
+    border-radius: 8px;
+    padding: 10px 16px;
+    transition: background-color 0.2s;
+}
+
+.link:hover {
+    background-color: rgb(123, 110, 220);
+}
+
+main {
+    flex: 1;
+    margin: 24px 32px;
+    font-size: 18px;
+}
+
+.pro {
+    background-color: rgb(30, 30, 60);
+    color: white;
+    padding: 30px 24px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.pro h2 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.info {
+    margin: 4px 0;
+    color: rgb(180, 175, 235);
+    font-size: 16px;
+}
+
+h2 {
+    color: rgb(30, 30, 60);
+    border-bottom: 2px solid rgb(99, 84, 196);
+    padding-bottom: 4px;
+}
+
+.bio {
+    line-height: 1.7;
+    color: rgb(50, 50, 70);
+}
+
+footer {
+    background-color: rgb(30, 30, 60);
+    padding: 10px 0;
+    width: 100%;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.foot img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
